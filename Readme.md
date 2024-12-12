@@ -36,8 +36,8 @@
 
 目前我们鼓励大家积极参与，通过下方提供的二维码或直接提交Issue提出建议和反馈。您的反馈将帮助我们不断优化评估方法，提高数据完整度与质量。 
 
-<center class ='img'>
+<div align=center>
 <img src="./contract_logo.jpg" width="30%" height="30%">
-</center>
+</div>
 
 感谢您对大模型开源技术体系影响力榜单的关注和支持。我们期待与您一起推动开源技术的发展和创新。
