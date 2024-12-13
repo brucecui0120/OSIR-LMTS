@@ -1,5 +1,5 @@
-[English](./Readme_en.md)   [简体中文](./readme.md)
-
+[English](./Readme_en.md)   [简体中文](./Readme.md)
+=======
 # OSIR-LMTS（Open Source Influence Ranking of Large Model Technology Stack）
 
 本项目致力于构建一个系统化的大模型技术体系开源影响力评估框架。我们通过科学、可操作的评估标准，旨在帮助开发者、研究者和企业更准确地理解和衡量开源大模型技术体系的实际价值。我们的目标是从数据、模型、系统和评测平台四个关键技术维度，全面评估开源大模型技术体系的影响力。
