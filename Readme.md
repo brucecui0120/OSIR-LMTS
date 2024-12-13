@@ -1,4 +1,4 @@
-[English](./README_en.md)   [简体中文](./README.md)
+[English](./Readme_en.md)   [简体中文](./readme.md)
 
 # OSIR-LMTS（Open Source Influence Ranking of Large Model Technology Stack）
 
