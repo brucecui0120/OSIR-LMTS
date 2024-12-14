@@ -23,10 +23,10 @@ This comprehensive coverage of the dimensions of the large-model technology ecos
 
 ### **Data Sources:**
 
-- **Data Dimension**: Hugging Face, ModelScope, GitHub, OpenDataLab, Google Official Website, META Official Website, OpenI, etc.
-- **Model Dimension**: Hugging Face, ModelScope, GitHub, OpenI, etc.
-- **System Dimension**: GitHub, Paddle, Mindspore, Tensorflow, etc.
-- **Evaluation Platform Dimension**: Hugging Face, GitHub, Gitee, and official websites of various organizations.
+- **Data Dimension**: HuggingFace, ModelScope, GitHub, OpenDataLab, Google Official Website, META Official Website, OpenI, etc.
+- **Model Dimension**: HuggingFace, ModelScope, GitHub, OpenI, etc.
+- **System Dimension**: GitHub, Paddle, Mindspore, TensorFlow, PyTorch, etc.
+- **Evaluation Platform Dimension**: Hugging Face, GitHub, Gitee, and official websites of various organizations (OpenCompass, LMArena, HELM, FlagEval, etc.).
 
 *Note*: Supplemented by Google search results and some additional platforms.
 
@@ -39,9 +39,7 @@ This comprehensive coverage of the dimensions of the large-model technology ecos
 
 #### **Data Collection Timeline**
 
-- **Download-related data**: Reflects total downloads during the statistical month.
-  - Data collection period: October 15, 2024 – November 15, 2024.
-- **Other data**: Reflects values as of November 15, 2024.
+- Download-related data represents the total downloads for the given month, while other data reflects the values as of the end of that month.
 
 #### **Summary of Data Collection**
 
