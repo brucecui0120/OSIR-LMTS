@@ -24,20 +24,30 @@
 
 ### **数据来源**
 
-* **数据维度**：GitHub，Hugging Face，ModelScope，OpenI启智，OpenDataLab，Google官网，META官网，Google搜索以及部分其它平台；
+* **数据维度**：Hugging Face, ModelScope, GitHub, OpenDataLab, Google官网，META官网，OpenI启智等；
 * **模型维度**： Hugging Face, ModelScope, GitHub，OpenI启智等；
-* **系统维度**：Github/DIOPI、Github/BladeDISC、GIthub/Pytorch、Paddle、Mindspore、Tensorflow等；
+* **系统维度**：Github、Paddle、Mindspore、Tensorflow等；
 * **评测平台维度**：HuggingFace、github、gitee以及各机构官网等。
 
+
+注：补充google搜索以及部分其它平台
 
 
 
 ## **统计方法**
 
-- 下载量相关数据均为统计当月下载量，其他数据为统计当月的截止值。
-- 总共获取了来自7025个链接的44个指标
-- 数据收集时间周期为每月15日左右，上次数据收集：2024年11月15日
+- **数据指标**：同一项目的多个仓库 ，根据仓库README文件及关联论文划分每个数据仓库所属的模态、生命周期。
+- **模型指标**：仅统计月下载量大于200、且在机构所有仓库里排名前100的仓库。 
+- **系统指标**：支持异构训练、接入训练芯片厂商数量、大模型生命周期支持程度均通过从 GitHub、Paddle、Mindspore 等网站获取。
+- **评测平台指标**：评测模型、评测数据数量从2023年后开始统计。仅统计公开可查的模型，为数据集发布而评测的模型不计其中。 
+- 下载量相关数据均为统计当月下载量
+  - 月下载量数据统计时间段：2024年10月15日-2024年11月15日
+  - 其他数据统计截止时间：2024年11月15日
 
+
+
+
+我们总共获取了来自7025个链接的44个指标，数据收集时间周期为每月15日，本次为首次数据统计时间为： 2024年11月15日。
 
 
 

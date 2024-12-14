@@ -23,16 +23,29 @@ This comprehensive coverage of the dimensions of the large-model technology ecos
 
 ### **Data Sources:**
 
-- **Data Dimension:** GitHub, Hugging Face, ModelScope, OpenI, OpenDataLab, Google official website, META official website, Google Search, and other platforms.
-- **Model Dimension:** Hugging Face, ModelScope, GitHub, OpenI, etc.
-- **System Dimension:** GitHub/DIOPI, GitHub/BladeDISC, GitHub/PyTorch, Paddle, Mindspore, TensorFlow, etc.
-- **Evaluation Platform Dimension:** Hugging Face, GitHub, Gitee, and official websites of various organizations.
+- **Data Dimension**: Hugging Face, ModelScope, GitHub, OpenDataLab, Google Official Website, META Official Website, OpenI, etc.
+- **Model Dimension**: Hugging Face, ModelScope, GitHub, OpenI, etc.
+- **System Dimension**: GitHub, Paddle, Mindspore, Tensorflow, etc.
+- **Evaluation Platform Dimension**: Hugging Face, GitHub, Gitee, and official websites of various organizations.
 
-## **Statistical Methods**
+*Note*: Supplemented by Google search results and some additional platforms.
 
-- Download-related data reflects the statistics of downloads within the current month, while other data represents the cumulative value as of the end of the month.
-- A total of 44 indicators were obtained from 7,025 links.
-- The data collection period is around the 15th of each month, with the last data collection occurring on November 15, 2024.
+### **Evaluation Methods**
+
+- **Data Metrics**: Multiple repositories under the same project are analyzed based on their README files and associated papers to classify each repository's modality and lifecycle stage.
+- **Model Metrics**: Only repositories with a monthly download count exceeding 200 and ranking within the top 100 across the organization are included.
+- **System Metrics**: Metrics such as support for heterogeneous training, the number of supported training chip vendors, and lifecycle support for large models are collected from platforms including GitHub, Paddle, and Mindspore.
+- **Evaluation Platform Metrics**: Metrics for evaluation models and datasets are collected starting from 2023. Only publicly accessible models are considered, excluding those evaluated solely for the purpose of dataset publication.
+
+#### **Data Collection Timeline**
+
+- **Download-related data**: Reflects total downloads during the statistical month.
+  - Data collection period: October 15, 2024 – November 15, 2024.
+- **Other data**: Reflects values as of November 15, 2024.
+
+#### **Summary of Data Collection**
+
+A total of 44 indicators were collected from 7,025 links. Data collection is conducted around the 15th of each month. This is the first dataset, with the initial collection completed on November 15, 2024.
 
 ## Calculation Method
 
