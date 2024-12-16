@@ -24,10 +24,10 @@
 
 ### **数据来源**
 
-* **数据维度**：HuggingFace, ModelScope, GitHub, OpenDataLab, Google官网，META官网，OpenI启智等；
-* **模型维度**： HuggingFace, ModelScope, GitHub，OpenI启智等；
-* **系统维度**：Github、Paddle、Mindspore、Tensorflow、Pytorch等；
-* **评测平台维度**：HuggingFace、Github、Gitee以及各机构官网(OpenCompass, LMArena, HELM, FlagEval等)。
+* **数据维度**：HuggingFace、ModelScope、GitHub、GitCode、OpenDataLab、Google官网、META官网、OpenI启智等；
+* **模型维度**： HuggingFace，ModelScope，GitHub，GitCode，OpenI启智等；
+* **系统维度**：Github、GitCode、Paddle、Mindspore、Tensorflow、Pytorch等；
+* **评测平台维度**：HuggingFace、Github、GitCode、Gitee以及各机构官网(OpenCompass, LMArena, HELM, FlagEval等)。
 
 
 注：补充google搜索以及部分其它平台
