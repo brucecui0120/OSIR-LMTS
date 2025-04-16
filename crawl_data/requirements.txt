@@ -1,0 +1,9 @@
+beautifulsoup4==4.12.3
+Deprecated==1.2.13
+openai==1.58.1
+pandas==2.0.3
+Requests==2.32.3
+selenium==4.9.0
+tqdm==4.67.0
+typing_extensions==4.12.2
+webdriver_manager==4.0.2
