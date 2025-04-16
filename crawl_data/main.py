@@ -392,7 +392,7 @@ if __name__ == '__main__':
     # 生成最终的数据表格
     # get_final_data()
     # 统计数据
-    statistic = StatisticAll('D:\Workspace\ProgramWorkspace\Python\BAAI\Workspace\data_dispose\month3_processed.xlsx')
+    statistic = StatisticAll('processed.xlsx')
     statistic.process_data()
     # print("数据统计完成！")
     statistic.dataset_used_num()
