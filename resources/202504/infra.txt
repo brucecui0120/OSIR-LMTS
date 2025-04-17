@@ -145,3 +145,17 @@ https://github.com/deepseek-ai/DeepGEMM
 https://github.com/openai/blocksparse
 https://github.com/NVIDIA/cutlass
 https://github.com/microsoft/TileFusion
+https://github.com/pytorch/pytorch
+https://github.com/tensorflow/tensorflow
+https://tensorflow.google.cn/api_docs/python/tf
+https://github.com/PaddlePaddle/docs
+https://www.paddlepaddle.org.cn/documentation/docs/en/api/index_en.html
+https://github.com/deepseek-ai/FlashMLA
+https://github.com/deepseek-ai/DeepGEMM
+https://github.com/openai/blocksparse
+https://github.com/NVIDIA/cutlass
+https://github.com/microsoft/TileFusion
+https://github.com/FlagOpen/FlagCX
+https://cloud.baidu.com/doc/AIHC/s/Nlvyoj64n
+https://help.aliyun.com/zh/pai/user-guide/accl-alibaba-high-performance-collective-communication-library
+https://gitee.com/ascend/cann-hccl
