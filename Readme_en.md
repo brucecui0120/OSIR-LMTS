@@ -2,53 +2,44 @@
 
 # OSIR-LMTS（Open Source Influence Ranking of Large Model Technology Stack）
 
-This project aims to establish a systematic framework for evaluating the open-source impact of large model technology ecosystems. By defining scientific and actionable evaluation criteria, we strive to help developers, researchers, and enterprises better understand and assess the practical value of these systems. Our approach focuses on four key technical dimensions: data, models, systems, and evaluation platforms.
-
-
+This project is dedicated to building a systematic evaluation framework for assessing the open-source influence of large model technology ecosystems. Through scientific and actionable evaluation criteria, we aim to help developers, researchers, and enterprises better understand and measure the real-world value of open-source large model technologies. Our goal is to comprehensively evaluate their impact across four key technical dimensions: **Data**, **Models**, **Infrastructure**, and **Evaluation Platforms**.
 
 ## **Evaluation Dimensions**
 
-The evaluation framework includes the following dimensions:
 
-- **Data Dimension:** Includes dataset coverage, large model lifecycle coverage, and data processing tools as evaluation criteria.
-- **Model Dimension:** Includes metrics such as model usage, modality coverage, model size, contributor activity, and openness of the models.
-- **System Dimension:** Focuses on operator libraries, parallel training and inference frameworks, deep learning frameworks, and contributor activity.
-- **Evaluation Platform Dimension:** Covers evaluation leaderboards, models, data, and methods.
+Currently, the following evaluation dimensions are available:
 
+1. **Data Dimension**: Evaluation based on dataset modality coverage, coverage of the large model lifecycle, and data processing tools.
+2. **Model Dimension**: Evaluation includes model usage, modality coverage, model scale, contributor activity, openness, and the number of compatible hardware chips.
+3. **Infrastructure Dimension**: Evaluation based on operator libraries, parallel training and inference frameworks, deep learning frameworks, open-source AI compilers, communication libraries, and contributor activity.
+4. **Evaluation Platform Dimension**: Includes metrics like evaluation leaderboards, evaluated models, datasets, and evaluation methodologies.
 
-
-This comprehensive coverage of the dimensions of the large-model technology ecosystem ensures the evaluation framework's systematic and scientific rigor in assessing the open-source impact of large-model technologies.
+This comprehensive coverage ensures the **systematic and scientific nature** of the framework when assessing the open-source large model technology ecosystem.
 
 ## **Data Sources and Evaluation Methods**
 
-### **Data Sources:**
+### **Data Sources**
 
-- **Data Dimension**: HuggingFace, ModelScope, GitHub, GitCode, OpenDataLab, Google Official Website, META Official Website, OpenI, etc.
-- **Model Dimension**: HuggingFace, ModelScope, GitHub, GitCode, OpenI, etc.
-- **System Dimension**: GitHub, GitCode, Paddle, Mindspore, TensorFlow, PyTorch, etc.
-- **Evaluation Platform Dimension**: Hugging Face, GitHub, Gitee, GitCode and official websites of various organizations (OpenCompass, LMArena, HELM, FlagEval, etc.).
+- **Data Dimension**: Hugging Face, ModelScope, GitHub, GitCode, Gitee, BAAI Data Platform, OpenDataLab, Google Official Website, META Official Website, OpenI (启智), etc.
+- **Model Dimension**: Hugging Face, ModelScope, GitHub, GitCode, Gitee, OpenI (启智), etc.
+- **Infrastructure Dimension**: GitHub, GitCode, PaddlePaddle, MindSpore, TensorFlow, PyTorch, etc.
+- **Evaluation Platform Dimension**: Hugging Face, GitHub, Gitee, GitCode, and various institutional websites (e.g., OpenCompass).
 
-*Note*: Supplemented by Google search results and some additional platforms.
+## **Statistical Methods**
 
-### **Evaluation Methods**
+- **Data Indicators**: For projects with multiple repositories, modality and lifecycle stages are determined based on README files and related papers.
+- **Model Indicators**: We count all organization/research group repositories under each institution. Only models with **monthly downloads over 50** are considered. Only large models based on **Transformer architecture or later** are included, excluding traditional deep learning models like CNNs and RNNs, and excluding language models with fewer than **500M parameters**.
+- **Infrastructure Indicators**: Support for heterogeneous training, number of hardware chip vendors integrated, and lifecycle coverage are gathered from platforms such as GitHub, PaddlePaddle, and MindSpore.
+- **Evaluation Platform Indicators**: Statistics on evaluation models and datasets are collected **from 2023 onwards**. Only publicly available models are included, and models evaluated solely for dataset release purposes are excluded. Similarly, only **actively maintained evaluation platforms** are included—temporary leaderboards tied to dataset releases are excluded. All data is based on the evaluation platform’s official records.
 
-- **Data Metrics**: Multiple repositories under the same project are analyzed based on their README files and associated papers to classify each repository's modality and lifecycle stage.
-- **Model Metrics**: Only repositories with a monthly download count exceeding 200 and ranking within the top 100 across the organization are included.
-- **System Metrics**: Metrics such as support for heterogeneous training, the number of supported training chip vendors, and lifecycle support for large models are collected from platforms including GitHub, Paddle, and Mindspore.
-- **Evaluation Platform Metrics**: Metrics for evaluation models and datasets are collected starting from 2023. Only publicly accessible models are considered, excluding those evaluated solely for the purpose of dataset publication.
+We collected a wide range of indicators from **17 platforms** and **11,673 links**. The data collection is updated **monthly**, and the current dataset is up to date as of **April 7, 2025**.
 
-#### **Data Collection Timeline**
+## **Scoring Method**
 
-- Download-related data represents the total downloads for the given month, while other data reflects the values as of the end of that month.
+All indicators are scored using **Min-Max normalization**, and the final influence score is the average of these normalized scores.
 
-#### **Summary of Data Collection**
+## **Community Engagement and Feedback**
 
-A total of 44 indicators were collected from 7,025 links. Data collection is conducted around the 15th of each month. This is the first dataset, with the initial collection completed on November 15, 2024.
+We encourage community participation—please feel free to submit an Issue with suggestions or feedback. Your input helps us continually improve our evaluation methods and enhance the completeness and quality of the data.
 
-## Calculation Method
-
-All metrics are normalized using the Min-Max method, and the influence score is calculated as the average of the normalized values.
-
-
-
-Thank you for your attention and support for the Open Source Large Model Technology Influence Leaderboard. Together, we can drive innovation and advancement in open-source technologies!
+Thank you for your attention and support of the Open-Source Large Model Technology Ecosystem Influence Rankings. We look forward to working with you to advance open-source technology and innovation.
