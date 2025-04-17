@@ -49,10 +49,6 @@ A total of 44 indicators were collected from 7,025 links. Data collection is con
 
 All metrics are normalized using the Min-Max method, and the influence score is calculated as the average of the normalized values.
 
-## **Engagement and Feedback**
 
-We encourage active participation from the community.The public announcement period is from December 16, 2024, to January 16, 2025.
-
- You can share your suggestions and feedback by scanning the QR code below or submitting an issue directly. Your input will help us refine the evaluation methodology and enhance data accuracy and completeness.
 
 Thank you for your attention and support for the Open Source Large Model Technology Influence Leaderboard. Together, we can drive innovation and advancement in open-source technologies!
