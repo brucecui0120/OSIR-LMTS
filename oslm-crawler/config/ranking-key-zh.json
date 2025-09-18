@@ -1,0 +1,230 @@
+{
+    "Data": {
+        "num_language": [
+            "数据集模态覆盖度",
+            "语言数据集个数"
+        ],
+        "num_speech": [
+            "数据集模态覆盖度",
+            "语音数据集个数"
+        ],
+        "num_vision": [
+            "数据集模态覆盖度",
+            "视觉数据集个数"
+        ],
+        "num_multimodal": [
+            "数据集模态覆盖度",
+            "多模态数据集个数"
+        ],
+        "num_embodied": [
+            "数据集模态覆盖度",
+            "具身数据集个数"
+        ],
+        "downloads_language": [
+            "数据集模态覆盖度",
+            "语言数据集下载量"
+        ],
+        "downloads_speech": [
+            "数据集模态覆盖度",
+            "语音数据集下载量"
+        ],
+        "downloads_vision": [
+            "数据集模态覆盖度",
+            "视觉数据集下载量"
+        ],
+        "downloads_multimodal": [
+            "数据集模态覆盖度",
+            "多模态数据集下载量"
+        ],
+        "downloads_embodied": [
+            "数据集模态覆盖度",
+            "具身数据集下载量"
+        ],
+        "dataset_usage": [
+            "数据集模态覆盖度",
+            "数据集被使用量"
+        ],
+        "num_pretraining": [
+            "大模型生命周期覆盖度",
+            "预训练数据集个数"
+        ],
+        "num_finetuning": [
+            "大模型生命周期覆盖度",
+            "微调数据集个数"
+        ],
+        "num_preference": [
+            "大模型生命周期覆盖度",
+            "偏好数据集个数"
+        ],
+        "downloads_pretraining": [
+            "大模型生命周期覆盖度",
+            "预训练数据集下载量"
+        ],
+        "downloads_finetuning": [
+            "大模型生命周期覆盖度",
+            "微调数据集下载量"
+        ],
+        "downloads_preference": [
+            "大模型生命周期覆盖度",
+            "偏好数据集下载量"
+        ],
+        "operators": [
+            "数据工具项目",
+            "支持处理算子数量"
+        ]
+    },
+    "Model": {
+        "downloads_language": [
+            "模型使用量",
+            "语言模型下载量"
+        ],
+        "downloads_speech": [
+            "模型使用量",
+            "语音模型下载量"
+        ],
+        "downloads_vision": [
+            "模型使用量",
+            "视觉模型下载量"
+        ],
+        "downloads_multimodal": [
+            "模型使用量",
+            "多模态模型下载量"
+        ],
+        "downloads_3d": [
+            "模型使用量",
+            "3D模型下载量"
+        ],
+        "downloads_protein": [
+            "模型使用量",
+            "蛋白质模型下载量"
+        ],
+        "downloads_vector": [
+            "模型使用量",
+            "向量模型下载量"
+        ],
+        "downloads_embodied": [
+            "模型使用量",
+            "具身模型下载量"
+        ],
+        "descendants": [
+            "模型使用量",
+            "模型被使用量"
+        ],
+        "num_language": [
+            "模型模态覆盖度",
+            "语言模型数量"
+        ],
+        "num_speech": [
+            "模型模态覆盖度",
+            "语音模型数量"
+        ],
+        "num_vision": [
+            "模型模态覆盖度",
+            "视觉模型数量"
+        ],
+        "num_multimodal": [
+            "模型模态覆盖度",
+            "多模态模型数量"
+        ],
+        "num_3d": [
+            "模型模态覆盖度",
+            "3D模型数量"
+        ],
+        "num_protein": [
+            "模型模态覆盖度",
+            "蛋白质模型数量"
+        ],
+        "num_vector": [
+            "模型模态覆盖度",
+            "向量模型数量"
+        ],
+        "num_embodied": [
+            "模型模态覆盖度",
+            "具身模型数量"
+        ],
+        "likes": [
+            "贡献者活跃度",
+            "点赞数"
+        ],
+        "issue": [
+            "贡献者活跃度",
+            "Issues"
+        ],
+        "num_adapted_chips": [
+            "芯片适配情况",
+            "模型适配的芯片数量"
+        ]
+    },
+    "System": {
+        "num_operators": [
+            "算子库",
+            "算子数量"
+        ],
+        "num_adapted_chips_operator_lib": [
+            "算子库",
+            "支持芯片数量"
+        ],
+        "num_adapted_frameworks_operator_lib": [
+            "算子库",
+            "支持框架数量"
+        ],
+        "support_heterogeneous_training_frameworks": [
+            "并行训练与推理框架",
+            "支持异构训练"
+        ],
+        "num_adapted_chips_frameworks": [
+            "并行训练与推理框架",
+            "接入芯片厂商数量"
+        ],
+        "support_lifecycle": [
+            "并行训练与推理框架",
+            "大模型生命周期支持程度"
+        ],
+        "deep_learning_framework": [
+            "深度学习框架",
+            "深度学习框架"
+        ],
+        "num_adapted_frameworks_ai_compiler": [
+            "开源AI编译器",
+            "框架适配数量"
+        ],
+        "num_adapted_chips_ai_compiler": [
+            "开源AI编译器",
+            "支持芯片数量"
+        ],
+        "num_adapted_chips_communication_lib": [
+            "通信库",
+            "支持芯片数量"
+        ],
+        "support_cross_chip_communication": [
+            "通信库",
+            "支持跨芯片通信"
+        ],
+        "support_heterogeneous_training_communication_lib": [
+            "通信库",
+            "支持异构混训"
+        ]
+    },
+    "Evaluation": {
+        "num_leaderboards": [
+            "评测榜单",
+            "榜单多样性"
+        ],
+        "num_evaluated_models": [
+            "评测模型",
+            "参与评测模型数量"
+        ],
+        "num_evaluation_datasets": [
+            "评测数据",
+            "开源评测数据集数量"
+        ],
+        "num_evaluation_methods": [
+            "评测方法",
+            "评测方法类别"
+        ],
+        "num_evaluation_tools": [
+            "评测工具",
+            "开源评测工具数量"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+org,num_leaderboards,num_evaluated_models,num_evaluation_datasets,num_evaluation_methods,num_evaluation_tools
+BAAI,15,1010,13,4,4
+ShanghaiAILab,19,1094,34,4,8
+Baidu,0,0,0,0,0
+Baichuan,0,0,0,0,0
+Zhipu,4,108,20,3,4
+Ali,0,0,0,0,0
+Huawei,0,0,0,0,0
+LMSYS,12,329,4,3,1
+Falcon,1,688,3,2,1
+EleutherAI,0,0,0,0,1
+Meta,0,0,5,2,0
+Google,0,0,10,2,0
+Deepseek,0,0,0,0,0
+OpenBMB,1,10,3,2,2
+01-AI,0,0,0,0,0
+Ai2,0,0,2,0,4
+OpenAI,0,0,3,0,1
+Nvidia,0,0,4,0,1
+Microsoft,0,0,5,0,1
+Apple,0,0,0,0,0
+HuggingFace,6,4576,14,4,3
+Princeton NLP,0,0,1,0,1
+UKP Lab,0,0,3,0,2
+Tencent,0,0,0,0,0
+ByteDance,0,0,0,0,0

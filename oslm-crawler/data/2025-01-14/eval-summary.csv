@@ -1,0 +1,13 @@
+﻿org,num_leaderboards,num_evaluated_models,num_evaluation_datasets,num_evaluation_methods
+BAAI,13,923,3,4
+ShanghaiAILab,11,486,19,3
+Baidu,0,0,0,0
+Baichuan,0,0,0,0
+Zhipu,4,108,20,3
+Ali,0,0,0,0
+Huawei,0,0,0,0
+LMSYS,12,329,4,3
+Falcon,1,688,3,2
+EleutherAI,0,0,0,0
+Meta,0,0,5,2
+Google,0,0,10,2

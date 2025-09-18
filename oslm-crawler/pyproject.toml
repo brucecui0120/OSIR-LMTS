@@ -1,0 +1,26 @@
+[project]
+name = "oslm-crawler"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Leo", email = "95532869+MorePeanuts@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "jsonlines>=4.0.0",
+    "langchain>=0.3.27",
+    "langchain-openai>=0.3.31",
+    "loguru>=0.7.3",
+    "pandas>=2.3.2",
+    "selenium>=4.35.0",
+    "streamlit>=1.49.1",
+    "webdriver-manager>=4.0.2",
+]
+    
+[project.scripts]
+oslm-crawler = "oslm_crawler.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

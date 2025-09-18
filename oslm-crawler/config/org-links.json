@@ -1,0 +1,261 @@
+{
+    "BAAI": {
+        "HuggingFace": [
+            "https://huggingface.co/BAAI",
+            "https://huggingface.co/FlagRelease",
+            "https://huggingface.co/CofeAI",
+            "https://huggingface.co/OmniGen2"
+        ],
+        "ModelScope": [
+            "https://modelscope.cn/organization/BAAI"
+        ],
+        "BAAI Data": [
+            "https://data.baai.ac.cn/dataset"
+        ]
+    },
+    "ShanghaiAILab": {
+        "HuggingFace": [
+            "https://huggingface.co/OpenGVLab",
+            "https://huggingface.co/internlm",
+            "https://huggingface.co/Alpha-VLLM",
+            "https://huggingface.co/AI4Chem",
+            "https://huggingface.co/OpenDriveLab",
+            "https://huggingface.co/OpenDILabCommunity",
+            "https://huggingface.co/OpenMEDLab",
+            "https://huggingface.co/openmmlab",
+            "https://huggingface.co/opendatalab",
+            "https://huggingface.co/OpenScienceLab"
+        ],
+        "ModelScope": [
+            "https://modelscope.cn/organization/OpenGVLab",
+            "https://modelscope.cn/organization/Shanghai_AI_Laboratory",
+            "https://modelscope.cn/organization/OpenDataLab"
+        ],
+        "OpenDataLab": [
+            "https://opendatalab.com/?createdBy=12199&pageNo=0&pageSize=12&sort=downloadCount",
+            "https://opendatalab.com/?createdBy=11828&pageNo=0&pageSize=12&sort=downloadCount",
+            "https://opendatalab.com/?createdBy=12157&pageNo=0&pageSize=12&sort=downloadCount",
+            "https://opendatalab.com/?createdBy=12589&pageNo=0&pageSize=12&sort=downloadCount",
+            "https://opendatalab.com/?createdBy=1678533&pageNo=0&pageSize=12&sort=downloadCount"
+        ]
+    },
+    "Baidu": {
+        "HuggingFace": [
+            "https://huggingface.co/baidu",
+            "https://huggingface.co/PaddlePaddle",
+            "https://huggingface.co/ernie-research"
+        ],
+        "ModelScope": [
+            "https://modelscope.cn/organization/PaddlePaddle"
+        ]
+    },
+    "Baichuan": {
+        "HuggingFace": [
+            "https://huggingface.co/baichuan-inc"
+        ],
+        "ModelScope": [
+            "https://modelscope.cn/organization/baichuan-inc"
+        ]
+    },
+    "Zhipu": {
+        "HuggingFace": [
+            "https://huggingface.co/THUDM",
+            "https://huggingface.co/zai-org",
+            "https://huggingface.co/THUDM-HF-SPACE"
+        ],
+        "ModelScope": [
+            "https://modelscope.cn/organization/ZhipuAI"
+        ]
+    },
+    "Ali": {
+        "HuggingFace": [
+            "https://huggingface.co/Qwen",
+            "https://huggingface.co/Alibaba-NLP",
+            "https://huggingface.co/alibabasglab",
+            "https://huggingface.co/alibaba-pai",
+            "https://huggingface.co/Wan-AI"
+        ],
+        "ModelScope": [
+            "https://modelscope.cn/organization/Qwen",
+            "https://modelscope.cn/organization/iic"
+        ]
+    },
+    "Huawei": {
+        "HuggingFace": [
+            "https://huggingface.co/huawei-noah",
+            "https://huggingface.co/HWERI"
+        ]
+    },
+    "LMSYS": {
+        "HuggingFace": [
+            "https://huggingface.co/lmsys"
+        ]
+    },
+    "Falcon": {
+        "HuggingFace": [
+            "https://huggingface.co/tiiuae"
+        ]
+    },
+    "EleutherAI": {
+        "HuggingFace": [
+            "https://huggingface.co/EleutherAI"
+        ]
+    },
+    "Meta": {
+        "HuggingFace": [
+            "https://huggingface.co/meta-llama",
+            "https://huggingface.co/facebook",
+            "https://huggingface.co/FacebookAI"
+        ]
+    },
+    "Google": {
+        "HuggingFace": [
+            "https://huggingface.co/google",
+            "https://huggingface.co/google-bert",
+            "https://huggingface.co/google-t5",
+            "https://huggingface.co/deepmind",
+            "https://huggingface.co/google-research-datasets"
+        ]
+    },
+    "UKP Lab": {
+        "HuggingFace": [
+            "https://huggingface.co/sentence-transformers",
+            "https://huggingface.co/UKPLab"
+        ]
+    },
+    "Microsoft": {
+        "HuggingFace": [
+            "https://huggingface.co/microsoft"
+        ]
+    },
+    "OpenAI": {
+        "HuggingFace": [
+            "https://huggingface.co/openai"
+        ]
+    },
+    "HuggingFace": {
+        "HuggingFace": [
+            "https://huggingface.co/distilbert",
+            "https://huggingface.co/open-r1",
+            "https://huggingface.co/HuggingFaceTB",
+            "https://huggingface.co/HuggingFaceFW",
+            "https://huggingface.co/HuggingFaceH4"
+        ]
+    },
+    "Princeton NLP": {
+        "HuggingFace": [
+            "https://huggingface.co/princeton-nlp"
+        ]
+    },
+    "Deepseek": {
+        "HuggingFace": [
+            "https://huggingface.co/deepseek-ai"
+        ],
+        "ModelScope": [
+            "https://www.modelscope.cn/organization/deepseek-ai"
+        ]
+    },
+    "OpenBMB": {
+        "HuggingFace": [
+            "https://huggingface.co/openbmb"
+        ],
+        "ModelScope": [
+            "https://www.modelscope.cn/organization/OpenBMB"
+        ]
+    },
+    "01-AI": {
+        "HuggingFace": [
+            "https://huggingface.co/01-ai"
+        ],
+        "ModelScope": [
+            "https://www.modelscope.cn/organization/01ai"
+        ]
+    },
+    "Nvidia": {
+        "HuggingFace": [
+            "https://huggingface.co/nvidia"
+        ]
+    },
+    "Ai2": {
+        "HuggingFace": [
+            "https://huggingface.co/allenai"
+        ]
+    },
+    "Apple": {
+        "HuggingFace": [
+            "https://huggingface.co/apple"
+        ]
+    },
+    "Tencent": {
+        "HuggingFace": [
+            "https://huggingface.co/tencent",
+            "https://huggingface.co/TencentARC",
+            "https://huggingface.co/Tencent-Hunyuan"
+        ],
+        "ModelScope": [
+            "https://modelscope.cn/organization/tencent-community",
+            "https://modelscope.cn/organization/Tencent-YouTu-Research",
+            "https://modelscope.cn/organization/TencentARC",
+            "https://modelscope.cn/organization/TencentBAC"
+        ]
+    },
+    "ByteDance": {
+        "HuggingFace": [
+            "https://huggingface.co/ByteDance",
+            "https://huggingface.co/bytedance-research",
+            "https://huggingface.co/ByteDance-Seed"
+        ],
+        "ModelScope": [
+            "https://www.modelscope.cn/organization/ByteDance",
+            "https://modelscope.cn/organization/bytedance-research",
+            "https://modelscope.cn/organization/ByteDance-Seed",
+            "https://modelscope.cn/organization/BytedanceDouyinContent"
+        ]
+    },
+    "MistralAI": {
+        "HuggingFace": [
+            "https://huggingface.co/mistralai"
+        ]
+    },
+    "StanfordNLP": {
+        "HuggingFace": [
+            "https://huggingface.co/stanfordnlp"
+        ]
+    },
+    "Moonshot": {
+        "HuggingFace": [
+            "https://huggingface.co/moonshotai"
+        ],
+        "ModelScope": [
+            "https://modelscope.cn/organization/moonshotai"
+        ]
+    },
+    "MLFoundations": {
+        "HuggingFace": [
+            "https://huggingface.co/mlfoundations"
+        ]
+    },
+    "Salesforce": {
+        "HuggingFace": [
+            "https://huggingface.co/Salesforce"
+        ]
+    },
+    "Meituan": {
+        "HuggingFace": [
+            "https://huggingface.co/meituan-longcat",
+            "https://huggingface.co/meituan"
+        ],
+        "ModelScope": [
+            "https://modelscope.cn/organization/meituan-longcat",
+            "https://modelscope.cn/organization/meituan"
+        ]
+    },
+    "Xiaomi": {
+        "HuggingFace": [
+            "https://huggingface.co/XiaomiMiMo"
+        ],
+        "ModelScope": [
+            "https://modelscope.cn/organization/XiaomiMiMo"
+        ]
+    }
+}

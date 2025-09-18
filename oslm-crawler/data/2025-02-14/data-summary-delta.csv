@@ -1,0 +1,13 @@
+org,num_language,num_speech,num_vision,num_multimodal,num_embodied,downloads_language,downloads_speech,downloads_vision,downloads_multimodal,downloads_embodied,dataset_usage,num_pretraining,num_finetuning,num_preference,downloads_pretraining,downloads_finetuning,downloads_preference,operators
+BAAI,0,0,0,0,0,9891,6,-1399,-5800,0,61,0,0,0,4143,-1607,162,0
+ShanghaiAILab,2,0,0,0,0,-2179,-8,14672,9705,0,-371,0,2,0,23520,-1330,0,0
+Baidu,0,0,0,0,0,294,0,0,0,0,0,0,0,0,0,188,106,0
+Baichuan,0,0,1,0,0,0,0,49,0,0,0,0,1,0,0,49,0,0
+Zhipu,0,0,2,0,0,-994,0,10,1424,0,1,0,0,2,0,-1222,1662,0
+Ali,0,0,0,0,0,-229,685,-1177,2,0,1,0,0,0,-590,-129,0,0
+Huawei,0,0,0,0,0,84,0,0,0,0,0,0,0,0,91,-7,0,0
+LMSYS,0,0,0,0,0,-409,0,0,0,0,14,0,0,0,0,-363,-46,0
+Falcon,0,0,0,0,0,523,0,0,89,0,-15,0,0,0,523,89,0,0
+EleutherAI,2,0,0,0,0,55127,0,-125,0,0,95,2,0,0,44591,10411,0,0
+Meta,0,0,1,0,0,-17103,189,3142,1719,170,21,0,1,0,-1428,-10426,-29,0
+Google,0,0,0,0,0,65086,12463,-19,-1039,0,10,0,0,0,5603,70888,0,0

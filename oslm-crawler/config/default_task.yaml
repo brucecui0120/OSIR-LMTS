@@ -1,0 +1,203 @@
+HuggingFacePipeline:
+  task_name: 'hf-task'      # Related to the default filename of the log
+  load_dir: null            # When skipping the prerequisite steps, the data required for subsequent steps is loaded from this path. The default value is data/{today-date}/HuggingFace. When an error occurs and you need to rerun, you should manually specify to the error output directory.
+  save_dir: null            # Save directory for crawler results, default value is data/{today-date}/HuggingFace. The load_dir of post_process is different from other steps, it loads from save_dir by default.
+  log_path: null            # Log output directory, default value is logs/{task_name}-{datetime}
+
+  init_org_links:
+    save: false             # Whether to save the result
+    path: null              # The path of org links, the default value is config/org-links.json
+    orgs: null              # Specify the org name to crawl, default value is all orgs in the path
+
+  crawl_repo_page:
+    save: true              # Whether to save the result
+    category: null          # Dataset or model, optional values are models, datasets, null. If empty, it represents both datasets and models.
+    threads: 1              # The number of threads for the crawler program, default value is 1, note: too many threads can easily cause failure.
+    max_retries: 10         # Maximum retry times for crawler failure, default value is 10
+
+  crawl_detail_page:
+    save: true              # Whether to save the result
+    threads: 1              # The number of threads for the crawler program, default value is 1, note: too many threads can easily cause failure.
+    max_retries: 10         # Maximum retry times for crawler failure, default value is 10
+    screenshot_path: null   # The screenshot save path for the warehouse details page. When null, it means no screenshot will be taken.
+
+  post_process:
+    save: true              # Whether to save the result.
+    dataset_info_path: null # Record the JSON configuration files for dataset modalities and lifecycle-related information, with the default value being `config/dataset-info.json`.
+    model_info_path: null   # Record the JSON configuration files for model modalities-related information, with the default value being `config/model-info.json`.
+    ai_gen: true            # When encountering modal information not recorded in dataset-info and model-info, whether to use AI to generate relevant information and supplement it into the records.
+    ai_check: false         # For the download data that might be abnormal with a value of 0, whether to use AI to check the saved screenshots.
+    buffer_size: 8          # Number of links passed to LLM in one call when using ai_gen.
+    max_retries: 3          # Maximum retry count for using AI.
+
+ModelScopePipeline:
+  task_name: 'ms-task'      # Related to the default filename of the log
+  load_dir: null            # When skipping the prerequisite steps, the data required for subsequent steps is loaded from this path. The default value is data/{today-date}/ModelScope. When an error occurs and you need to rerun, you should manually specify to the error output directory.
+  save_dir: null            # Save directory for crawler results, default value is data/{today-date}/ModelScope. The load_dir of post_process is different from other steps, it loads from save_dir by default.
+  log_path: null            # Log output directory, default value is logs/{task_name}-{datetime}
+
+  init_org_links:
+    save: false             # Whether to save the result
+    path: null              # The path of org links, the default value is config/org-links.json
+    orgs: null              # Specify the org name to crawl, default value is all orgs in the path
+
+  crawl_repo_page:
+    save: true              # Whether to save the result
+    category: null          # Dataset or model, optional values are models, datasets, null. If empty, it represents both datasets and models.
+    threads: 1              # The number of threads for the crawler program, default value is 1, note: too many threads can easily cause failure.
+    max_retries: 10         # Maximum retry times for crawler failure, default value is 10
+
+  crawl_detail_page:
+    save: true              # Whether to save the result
+    threads: 1              # The number of threads for the crawler program, default value is 1, note: too many threads can easily cause failure.
+    max_retries: 10         # Maximum retry times for crawler failure, default value is 10
+    screenshot_path: null   # The screenshot save path for the warehouse details page. When null, it means no screenshot will be taken.
+
+  post_process:
+    save: true              # Whether to save the result.
+    dataset_info_path: null # Record the JSON configuration files for dataset modalities and lifecycle-related information, with the default value being `config/dataset-info.json`.
+    model_info_path: null   # Record the JSON configuration files for model modalities-related information, with the default value being `config/model-info.json`.
+    ai_gen: true            # When encountering modal information not recorded in dataset-info and model-info, whether to use AI to generate relevant information and supplement it into the records.
+    ai_check: false         # For the download data that might be abnormal with a value of 0, whether to use AI to check the saved screenshots.
+    buffer_size: 8          # Number of links passed to LLM in one call when using ai_gen.
+    max_retries: 3          # Maximum retry count for using AI.
+    history_data_path: null # The root directory for historical data, default value is `data/`
+
+OpenDataLabPipeline:
+  task_name: 'odl-task'     # Related to the default filename of the log
+  load_dir: null            # When skipping the prerequisite steps, the data required for subsequent steps is loaded from this path. The default value is data/{today-date}/OpenDataLab. When an error occurs and you need to rerun, you should manually specify to the error output directory.
+  save_dir: null            # Save directory for crawler results, default value is data/{today-date}/OpenDataLab. The load_dir of post_process is different from other steps, it loads from save_dir by default.
+  log_path: null            # Log output directory, default value is logs/{task_name}-{datetime}
+
+  init_org_links:
+    save: false             # Whether to save the result
+    path: null              # The path of org links, the default value is config/org-links.json
+    orgs: null              # Specify the org name to crawl, default value is all orgs in the path
+
+  crawl_repo_page:
+    save: true              # Whether to save the result
+    threads: 1              # The number of threads for the crawler program, default value is 1, note: too many threads can easily cause failure.
+    max_retries: 10         # Maximum retry times for crawler failure, default value is 10
+
+  post_process:
+    save: true              # Whether to save the result.
+    dataset_info_path: null # Record the JSON configuration files for dataset modalities and lifecycle-related information, with the default value being `config/dataset-info.json`.
+    history_data_path: null # The root directory for historical data, default value is `data/`
+    ai_gen: true            # When encountering modal information not recorded in dataset-info and model-info, whether to use AI to generate relevant information and supplement it into the records.
+    buffer_size: 8          # Number of links passed to LLM in one call when using ai_gen.
+    max_retries: 3          # Maximum retry count for using AI.
+
+BAAIDataPipeline:
+  task_name: 'baai-task'    # Related to the default filename of the log
+  load_dir: null            # When skipping the prerequisite steps, the data required for subsequent steps is loaded from this path. The default value is data/{today-date}/OpenDataLab. When an error occurs and you need to rerun, you should manually specify to the error output directory.
+  save_dir: null            # Save directory for crawler results, default value is data/{today-date}/OpenDataLab. The load_dir of post_process is different from other steps, it loads from save_dir by default.
+  log_path: null            # Log output directory, default value is logs/{task_name}-{datetime}
+
+  init_org_links:
+    save: false             # Whether to save the result
+    path: null              # The path of org links, the default value is config/org-links.json
+
+  crawl_repo_page:
+    save: true              # Whether to save the result.
+    max_retries: 10         # Maximum retry times for crawler failure, default value is 10
+
+  post_process:
+    save: true              # Whether to save the result.
+    dataset_info_path: null # Record the JSON configuration files for dataset modalities and lifecycle-related information, with the default value being `config/dataset-info.json`.
+    history_data_path: null # The root directory for historical data, default value is `data/`
+    ai_gen: true            # When encountering modal information not recorded in dataset-info and model-info, whether to use AI to generate relevant information and supplement it into the records.
+    buffer_size: 8          # Number of links passed to LLM in one call when using ai_gen.
+    max_retries: 3          # Maximum retry count for using AI.
+
+MergeAndRankingPipeline:
+  data_dir: null            # Data directory, default value is `data/{today-date}`
+  log_path: null            # Log output directory, default value is `logs/ranking-{datetime}/running.log`
+
+  merge_models:
+    save: true              # Whether to save the result.
+
+  merge_datasets:
+    save: true              # Whether to save the result.
+
+  ranking:
+    save: true              # Whether to save the result.
+
+    data_config: 
+      - 'average'           # Data dimension ranking calculation method, optional values are `average` and `weight`. When using `average`, the normalized values of the following indicators are averaged. When using `weight`, the calculation is performed according to the following weights.
+      -
+        num_language: 0
+        num_speech: 0
+        num_vision: 0
+        num_multimodal: 0
+        num_embodied: 0
+        downloads_language: 0
+        downloads_speech: 0
+        downloads_vision: 0
+        downloads_multimodal: 0
+        downloads_embodied: 0
+        dataset_usage: 0
+        num_pretraining: 0
+        num_finetuning: 0
+        num_preference: 0
+        downloads_pretraining: 0
+        downloads_finetuning: 0
+        downloads_preference: 0
+        operators: 0
+
+    model_config: 
+      - 'average'             # Model dimension ranking calculation method, optional values are `average` and `weight`. When using `average`, the normalized values of the following indicators are averaged. When using `weight`, the calculation is performed according to the following weights.
+      - 
+        downloads_vision: '0.6*0.02'
+        downloads_language: '0.6*0.5'
+        downloads_speech: '0.6*0.02'
+        downloads_3d: '0.6*0.02'
+        downloads_multimodal: '0.6*0.2'
+        downloads_protein: '0.6*0.02'
+        downloads_vector: '0.6*0.2'
+        # downloads_embodied: 0
+        descendants: '0.6*0.02'
+        num_vision: '0.1*0.025'
+        num_language: '0.1*0.5'
+        num_speech: '0.1*0.025'
+        num_3d: '0.1*0.025'
+        num_multimodal: '0.1*0.2'
+        num_protein: '0.1*0.025'
+        num_vector: '0.1*0.2'
+        # num_embodied: 0
+        likes: 0.1
+        issue: 0.1
+        num_adapted_chips: 0.1
+
+    infra_config: 
+      - 'average'               # Infra dimension ranking calculation method, optional values are `average` and `weight`. When using `average`, the normalized values of the following indicators are averaged. When using `weight`, the calculation is performed according to the following weights.
+      - 
+        num_operators: 0
+        num_adapted_chips_operator_lib: 0
+        num_adapted_frameworks_operator_lib: 0
+        support_heterogeneous_training_frameworks: 0
+        num_adapted_chips_frameworks: 0
+        support_lifecycle: 0
+        num_adapted_frameworks_ai_compiler: 0
+        num_adapted_chips_ai_compiler: 0
+        deep_learning_framework: 0
+        num_adapted_chips_communication_lib: 0
+        support_cross_chip_communication: 0
+        support_heterogeneous_training_communication_lib: 0
+
+    eval_config: 
+      - 'average'                 # Evaluation dimension ranking calculation method, optional values are `average` and `weight`. When using `average`, the normalized values of the following indicators are averaged. When using `weight`, the calculation is performed according to the following weights.
+      - 
+        num_leaderboards: 0
+        num_evaluated_models: 0
+        num_evaluation_datasets: 0
+        num_evaluation_methods: 0
+        num_evaluation_tools: 0
+
+    ranking_weights:              # Overall ranking calculation weight
+      data: '0.5/3'
+      model: 0.5
+      infra: '0.5/3'
+      eval: '0.5/3'
+
+    target_orgs:                  # Target orgs, if set to "all", then all orgs in infra and eval
+      - 'all'

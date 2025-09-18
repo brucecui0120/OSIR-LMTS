@@ -1,0 +1,56 @@
+custom_dir: &custom
+  load_dir: null
+  save_dir: null
+  data_dir: null
+  log_path: null
+
+HuggingFacePipeline:
+  task_name: 'hf-task'
+  <<: *custom
+
+  post_process:
+    save: true
+    dataset_info_path: null
+    model_info_path: null
+    ai_gen: true
+    ai_check: false
+    buffer_size: 16
+    max_retries: 3
+
+ModelScopePipeline:
+  task_name: 'ms-task'
+  <<: *custom
+
+  post_process:
+    save: true
+    dataset_info_path: null
+    model_info_path: null
+    ai_gen: true
+    ai_check: true
+    buffer_size: 16
+    max_retries: 3
+    history_data_path: null
+
+OpenDataLabPipeline:
+  task_name: 'odl-task'
+  <<: *custom
+
+  post_process:
+    save: true
+    dataset_info_path: null
+    history_data_path: null
+    ai_gen: true
+    buffer_size: 16
+    max_retries: 3
+
+BAAIDataPipeline:
+  task_name: 'baai-task'
+  <<: *custom
+
+  post_process:
+    save: true
+    dataset_info_path: null
+    history_data_path: null
+    ai_gen: true
+    buffer_size: 16
+    max_retries: 3

@@ -1,0 +1,230 @@
+{
+    "Data": {
+        "num_language": [
+            "Dataset Modality Coverage",
+            "Number of language datasets"
+        ],
+        "num_speech": [
+            "Dataset Modality Coverage",
+            "Number of speech datasets"
+        ],
+        "num_vision": [
+            "Dataset Modality Coverage",
+            "Number of visual datasets"
+        ],
+        "num_multimodal": [
+            "Dataset Modality Coverage",
+            "Number of multimodal datasets"
+        ],
+        "num_embodied": [
+            "Dataset Modality Coverage",
+            "Number of embodied datasets"
+        ],
+        "downloads_language": [
+            "Dataset Modality Coverage",
+            "Downloads of language datasets"
+        ],
+        "downloads_speech": [
+            "Dataset Modality Coverage",
+            "Downloads of speech datasets"
+        ],
+        "downloads_vision": [
+            "Dataset Modality Coverage",
+            "Downloads of visual datasets"
+        ],
+        "downloads_multimodal": [
+            "Dataset Modality Coverage",
+            "Downloads of multimodal datasets"
+        ],
+        "downloads_embodied": [
+            "Dataset Modality Coverage",
+            "Downloads of embodied datasets"
+        ],
+        "dataset_usage": [
+            "Dataset Modality Coverage",
+            "Number of dataset usage"
+        ],
+        "num_pretraining": [
+            "Large Model Lifecycle Complete",
+            "Number of pre-training datasets"
+        ],
+        "num_finetuning": [
+            "Large Model Lifecycle Complete",
+            "Number of fine-tuning datasets"
+        ],
+        "num_preference": [
+            "Large Model Lifecycle Complete",
+            "Number of preference"
+        ],
+        "downloads_pretraining": [
+            "Large Model Lifecycle Complete",
+            "Downloads of pre-training datasets"
+        ],
+        "downloads_finetuning": [
+            "Large Model Lifecycle Complete",
+            "Downloads of fine-tuning datasets"
+        ],
+        "downloads_preference": [
+            "Large Model Lifecycle Complete",
+            "Downloads of preference"
+        ],
+        "operators": [
+            "Data Processing Tools",
+            "Number of operators"
+        ]
+    },
+    "Model": {
+        "downloads_language": [
+            "Model Usage Volume",
+            "Downloads of language models"
+        ],
+        "downloads_speech": [
+            "Model Usage Volume",
+            "Downloads of speech models"
+        ],
+        "downloads_vision": [
+            "Model Usage Volume",
+            "Downloads of visual models"
+        ],
+        "downloads_multimodal": [
+            "Model Usage Volume",
+            "Downloads of multimodal models"
+        ],
+        "downloads_3d": [
+            "Model Usage Volume",
+            "Downloads of 3D models"
+        ],
+        "downloads_protein": [
+            "Model Usage Volume",
+            "Downloads of protein models"
+        ],
+        "downloads_vector": [
+            "Model Usage Volume",
+            "Downloads of vector models"
+        ],
+        "downloads_embodied": [
+            "Model Usage Volume",
+            "Downloads of embodied models"
+        ],
+        "descendants": [
+            "Model Usage Volume",
+            "Number of model usage"
+        ],
+        "num_language": [
+            "Model Modality Coverage",
+            "Number of language models"
+        ],
+        "num_speech": [
+            "Model Modality Coverage",
+            "Number of speech models"
+        ],
+        "num_vision": [
+            "Model Modality Coverage",
+            "Number of visual models"
+        ],
+        "num_multimodal": [
+            "Model Modality Coverage",
+            "Number of multimodal models"
+        ],
+        "num_3d": [
+            "Model Modality Coverage",
+            "Number of 3D models"
+        ],
+        "num_protein": [
+            "Model Modality Coverage",
+            "Number of protein models"
+        ],
+        "num_vector": [
+            "Model Modality Coverage",
+            "Number of vector models"
+        ],
+        "num_embodied": [
+            "Model Modality Coverage",
+            "Number of embodied models"
+        ],
+        "likes": [
+            "Contributor Activity",
+            "Likes"
+        ],
+        "issue": [
+            "Contributor Activity",
+            "Issues"
+        ],
+        "num_adapted_chips": [
+            "Chip Adaptation",
+            "Number of adapted chips"
+        ]
+    },
+    "System": {
+        "num_operators": [
+            "Operator Library",
+            "Number of operators"
+        ],
+        "num_adapted_chips_operator_lib": [
+            "Operator Library",
+            "Number of supported chips"
+        ],
+        "num_adapted_frameworks_operator_lib": [
+            "Operator Library",
+            "Number of supported frameworks"
+        ],
+        "support_heterogeneous_training_frameworks": [
+            "Parallel Training and Inference Framework",
+            "Support of heterogeneous training"
+        ],
+        "num_adapted_chips_frameworks": [
+            "Parallel Training and Inference Framework",
+            "Number of chip vendors"
+        ],
+        "support_lifecycle": [
+            "Parallel Training and Inference Framework",
+            "Support level for Large Model Lifecycle"
+        ],
+        "deep_learning_framework": [
+            "Deep Learning Framework",
+            "Deep Learning Framework"
+        ],
+        "num_adapted_frameworks_ai_compiler": [
+            "Open-source AI Compiler",
+            "Number of adapted frameworks"
+        ],
+        "num_adapted_chips_ai_compiler": [
+            "Open-source AI Compiler",
+            "Number of supported chips"
+        ],
+        "num_adapted_chips_communication_lib": [
+            "Communication Library",
+            "Number of supported chips"
+        ],
+        "support_cross_chip_communication": [
+            "Communication Library",
+            "Support for cross-chip communication"
+        ],
+        "support_heterogeneous_training_communication_lib": [
+            "Communication Library",
+            "Support for heterogeneous mixed training"
+        ]
+    },
+    "Evaluation": {
+        "num_leaderboards": [
+            "Evaluation Leaderboards",
+            "Diversity of leaderboards"
+        ],
+        "num_evaluated_models": [
+            "Evaluated Models",
+            "Number of evaluated models"
+        ],
+        "num_evaluation_datasets": [
+            "Evaluation Datasets",
+            "Self-built open-source evaluation datasets"
+        ],
+        "num_evaluation_methods": [
+            "Evaluation Methods",
+            "Self-built open-source evaluation methods"
+        ],
+        "num_evaluation_tools": [
+            "Evaluation Tools",
+            "Number of open-source evaluation tools"
+        ]
+    }
+}
