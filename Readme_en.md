@@ -32,7 +32,7 @@ This comprehensive coverage ensures the **systematic and scientific nature** of 
 - **Infrastructure Indicators**: Support for heterogeneous training, number of hardware chip vendors integrated, and lifecycle coverage are gathered from platforms such as GitHub, PaddlePaddle, and MindSpore.
 - **Evaluation Platform Indicators**: Statistics on evaluation models and datasets are collected **from 2023 onwards**. Only publicly available models are included, and models evaluated solely for dataset release purposes are excluded. Similarly, only **actively maintained evaluation platforms** are included—temporary leaderboards tied to dataset releases are excluded. All data is based on the evaluation platform’s official records.
 
-We collected a wide range of indicators from **17 platforms** and **11,673 links**. The data collection is updated **monthly**, and the current dataset is up to date as of **April 7, 2025**.
+We collected a wide range of indicators from **17 platforms** and **13,541 links**. The data collection is updated **monthly**, and the current dataset is up to date as of **September 7, 2025**.
 
 ## **Scoring Method**
 
