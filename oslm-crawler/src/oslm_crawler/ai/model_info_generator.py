@@ -14,7 +14,7 @@ from pydantic import BaseModel, Field
 from typing import Literal, Optional
 
 SCRIPT_PATH = Path(__file__)
-ROOT_PATH = SCRIPT_PATH.parents[3]
+ROOT_PATH = SCRIPT_PATH.parents[5]
 CONFIG_PATH = ROOT_PATH / 'config/env.yaml'
 with CONFIG_PATH.open('r', encoding='utf-8') as f:
     config = yaml.safe_load(f)

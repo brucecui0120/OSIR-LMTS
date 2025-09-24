@@ -1079,7 +1079,7 @@ class MergeAndRankingPipeline:
         }
         
         # TODO temp handle other source dataset
-        data_path = Path(__file__).parents[2] / 'data/other-source-datasets.jsonl'
+        data_path = self.data_dir / 'other-source-datasets.jsonl'
         if data_path.exists():
             other_data = pd.read_json(data_path, lines=True)
         
@@ -1231,9 +1231,11 @@ class MergeAndRankingPipeline:
         ]}
         target_orgs = kargs.get('target_orgs', ['all'])
         
-        # TODO Add embodied model? If not adding embodied model, then reset to multimodal.
+        # TODO Add embodied model and dataset? If not, then reset to multimodal.
         if kargs['model_config'][1].get('num_embodied') is None and kargs['model_config'][1].get('downloads_embodied') is None:
             merged_models['modality'].replace('Embodied', 'Multimodal')
+        if kargs['data_config'][1].get('num_embodied') is None and kargs['data_config'][1].get('downloads_embodied') is None:
+            merged_datasets['modality'].replace('Embodied', 'Multimodal')
 
         logger.info("Summary table of data from four dimensions.")
         infra_summary = self._summary_infra(kargs['infra_config'], target_orgs)
@@ -1317,18 +1319,19 @@ class AccumulateAndRankingPipeline:
     
     def __init__(
         self,
-        data_dir: str | None,
-        log_path: str | None,
+        data_dir: str | None = None,
+        log_path: str | None = None,
     ):
-        self.now = datetime.now().strftime(r"%Y-%m-%d_%H-%M-%S")
-        self.date = str(datetime.today().date())
+        now = datetime.now().strftime(r"%Y-%m-%d_%H-%M-%S")
         if data_dir:
             self.data_dir = Path(data_dir)
+            self.date = self.data_dir.name
         else:
+            self.date = str(datetime.today().date())
             self.data_dir = Path(__file__).parents[2] / f'data/{self.date}'
-        assert re.match(r"\d+-\d+-\d+", self.data_dir.name) 
+        assert bool(re.match(r'^\d{4}-\d{2}-\d{2}$', self.date))
         if log_path is None:
-            log_path = Path(__file__).parents[2] / f"logs/accumulating-{self.now}/running.log"
+            log_path = Path(__file__).parents[2] / f"logs/accumulating-{now}/running.log"
         else:
             log_path = Path(log_path)
         self.data_dir_last_month = self._get_last_month_path(self.data_dir.name)
@@ -1446,7 +1449,7 @@ class AccumulateAndRankingPipeline:
         }
         
         # TODO temp handle other source dataset
-        data_path = Path(__file__).parents[2] / 'data/other-source-datasets.jsonl'
+        data_path = self.data_dir / 'other-source-datasets.jsonl'
         if data_path.exists():
             other_data = pd.read_json(data_path, lines=True)
             

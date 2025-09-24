@@ -1,6 +1,6 @@
 {"org": "Meta", "repo": "Meta", "dataset_name": "SA-V Dataset", "link": "https://ai.meta.com/datasets/segment-anything-video/", "modality": "Vision", "lifecycle": "Pre-training"}
 {"org": "Meta", "repo": "Meta", "dataset_name": "FACET Dataset", "link": "https://ai.meta.com/datasets/facet/", "modality": "Vision", "lifecycle": "Pre-training"}
-{"org": "Meta", "repo": "Meta", "dataset_name": "EgoTV: Egocentric Task Verification Dataset", "link": "https://ai.meta.com/datasets/egotv-egocentric-task-verification-dataset/", "modality": "Vision", "lifecycle": "Pre-training"}
+{"org": "Meta", "repo": "Meta", "dataset_name": "EgoTV: Egocentric Task Verification Dataset", "link": "https://ai.meta.com/datasets/egotv-egocentric-task-verification-dataset/", "modality": "Embodied", "lifecycle": "Pre-training"}
 {"org": "Meta", "repo": "Meta", "dataset_name": "MMCSG Dataset", "link": "https://ai.meta.com/datasets/mmcsg-dataset/", "modality": "Speech", "lifecycle": "Pre-training"}
 {"org": "Meta", "repo": "Meta", "dataset_name": "Fair-speech Dataset", "link": "https://ai.meta.com/datasets/speech-fairness-dataset/", "modality": "Speech", "lifecycle": "Pre-training"}
 {"org": "Meta", "repo": "Meta", "dataset_name": "Casual Conversations v2 Dataset", "link": "https://ai.meta.com/datasets/casual-conversations-v2-dataset/", "modality": "Multimodal", "lifecycle": "Fine-tuning"}
@@ -9,8 +9,8 @@
 {"org": "Meta", "repo": "Meta", "dataset_name": "SA-1B Dataset", "link": "https://ai.meta.com/datasets/segment-anything/", "modality": "Vision", "lifecycle": "Pre-training"}
 {"org": "Meta", "repo": "Meta", "dataset_name": "DISC21: Dataset for the Image Similarity Challenge 2021", "link": "https://ai.meta.com/datasets/disc21-dataset/", "modality": "Vision", "lifecycle": "Pre-training"}
 {"org": "Meta", "repo": "Meta", "dataset_name": "EgoObjects: Large-Scale Egocentric Dataset of Objects", "link": "https://ai.meta.com/datasets/egoobjects-dataset/", "modality": "Vision", "lifecycle": "Pre-training"}
-{"org": "Meta", "repo": "Meta", "dataset_name": "FLoRes Benchmarking", "link": "https://ai.meta.com/tools/flores/", "modality": "Vision", "lifecycle": "Pre-training"}
-{"org": "Meta", "repo": "Meta", "dataset_name": "Egocentric Live 4D Perception (Ego4D)", "link": "https://ai.meta.com/tools/ego4d/", "modality": "Vision", "lifecycle": "Pre-training"}
+{"org": "Meta", "repo": "Meta", "dataset_name": "FLoRes Benchmarking", "link": "https://ai.meta.com/tools/flores/", "modality": null, "lifecycle": "Evaluation"}
+{"org": "Meta", "repo": "Meta", "dataset_name": "Egocentric Live 4D Perception (Ego4D)", "link": "https://ai.meta.com/tools/ego4d/", "modality": "Embodied", "lifecycle": "Pre-training"}
 {"org": "Huawei", "repo": "Huawei", "dataset_name": "wukong-dataset", "link": "https://wukong-dataset.github.io/wukong-dataset/index.html", "modality": "Multimodal", "lifecycle": "Fine-tuning"}
 {"org": "EleutherAI", "repo": "EleutherAI", "dataset_name": "eleutherai-instruct-dataset", "link": "https://github.com/EleutherAI/eleutherai-instruct-dataset", "modality": "Language", "lifecycle": "Fine-tuning"}
 {"org": "EleutherAI", "repo": "EleutherAI", "dataset_name": "GPTeacher", "link": "https://github.com/EleutherAI/GPTeacher", "modality": "Language", "lifecycle": "Fine-tuning"}
@@ -48,7 +48,8 @@
 {"org": "Google", "repo": "Google", "dataset_name": "Re-contextualizing Fairness in NLP for India Data", "link": "https://github.com/google-research-datasets/nlp-fairness-for-india", "modality": "Language", "lifecycle": "Preference"}
 {"org": "Google", "repo": "Google", "dataset_name": "MultiBERTs Predictions on Winogender", "link": "http://goo.gle/multiberts", "modality": "Language", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "InFormal Dataset", "link": "https://github.com/google-research-datasets/informal", "modality": "Language", "lifecycle": "Pre-training"}
-{"org": "Google", "repo": "Google", "dataset_name": "EditBench", "link": "https://storage.cloud.google.com/editbench/editbench.tar.gz", "modality": "Vision", "lifecycle": "Pre-training"}
+{"org": "Google", "repo": "Google", "dataset_name": "MT-Opt dataset", "link": "https://www.tensorflow.org/datasets/catalog/mt_opt", "modality": "Embodied", "lifecycle": "Pre-training"}
+{"org": "Google", "repo": "Google", "dataset_name": "EditBench", "link": "https://storage.cloud.google.com/editbench/editbench.tar.gz", "modality": null, "lifecycle": "Evaluation"}
 {"org": "Google", "repo": "Google", "dataset_name": "Auto-Arborist", "link": "https://google.github.io/auto-arborist/", "modality": "Vision", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "UserLibri", "link": "https://www.kaggle.com/datasets/google/userlibri", "modality": "Speech", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "VideoCC", "link": "https://github.com/google-research-datasets/videoCC-data", "modality": "Vision", "lifecycle": "Pre-training"}
@@ -79,8 +80,9 @@
 {"org": "Google", "repo": "Google", "dataset_name": "Basque [eu-es] multi-speaker speech", "link": "http://openslr.org/76/", "modality": "Speech", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "Mostly Basic Python Problems (MBPP)", "link": "https://github.com/google-research/google-research/tree/master/mbpp", "modality": "Language", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "XSum Hallucination Annotations", "link": "https://github.com/google-research-datasets/xsum_hallucination_annotations", "modality": "Language", "lifecycle": "Preference"}
+{"org": "Google", "repo": "Google", "dataset_name": "Room-Across-Room", "link": "https://github.com/google-research-datasets/RxR", "modality": "Embodied", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "Scanned Objects by Google Research", "link": "http://goo.gle/scanned-objects", "modality": "Vision", "lifecycle": "Pre-training"}
-{"org": "Google", "repo": "Google", "dataset_name": "Objectron", "link": "https://github.com/google-research-datasets/Objectron", "modality": "Vision", "lifecycle": "Pre-training"}
+{"org": "Google", "repo": "Google", "dataset_name": "Objectron", "link": "https://github.com/google-research-datasets/Objectron", "modality": "Embodied", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "Google Open Images Mutual Gaze dataset", "link": "https://github.com/google-research-datasets/Google-Open-Images-Mutual-Gaze-dataset", "modality": "Vision", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "Taskmaster-2", "link": "https://github.com/google-research-datasets/Taskmaster/tree/master/TM-2-2020", "modality": "Language", "lifecycle": "Fine-tuning"}
 {"org": "Google", "repo": "Google", "dataset_name": "Demographic Traits Annotations in Clinical Notes", "link": "https://www.kaggle.com/datasets/google-health/demographic-traits-annotations", "modality": "Language", "lifecycle": "Pre-training"}
@@ -133,15 +135,17 @@
 {"org": "Google", "repo": "Google", "dataset_name": "Colombian Spanish [es-co] multi-speaker speech", "link": "http://openslr.org/72/", "modality": "Language", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "Conceptual Captions", "link": "https://ai.google.com/research/ConceptualCaptions/download", "modality": "Multimodal", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "RealEstate 10K", "link": "https://google.github.io/realestate10k/", "modality": "Vision", "lifecycle": "Pre-training"}
-{"org": "Google", "repo": "Google", "dataset_name": "Human Pouring Videos", "link": "https://sites.google.com/site/brainrobotdata/home/pouring-dataset", "modality": "Vision", "lifecycle": "Pre-training"}
+{"org": "Google", "repo": "Google", "dataset_name": "Human Pouring Videos", "link": "https://sites.google.com/site/brainrobotdata/home/pouring-dataset", "modality": "Embodied", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "NSynth", "link": "https://www.tensorflow.org/datasets/catalog/nsynth", "modality": "Speech", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "Procedurally Generated Random Objects", "link": "https://sites.google.com/site/brainrobotdata/home/models", "modality": "Vision", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "YouTube-BoundingBoxes", "link": "https://research.google.com/youtube-bb/", "modality": "Vision", "lifecycle": "Pre-training"}
-{"org": "Google", "repo": "Google", "dataset_name": "Multi-view Human Pouring Videos", "link": "https://sites.google.com/site/brainrobotdata/home/multiview-pouring", "modality": "Vision", "lifecycle": "Pre-training"}
+{"org": "Google", "repo": "Google", "dataset_name": "Multi-view Human Pouring Videos", "link": "https://sites.google.com/site/brainrobotdata/home/multiview-pouring", "modality": "Embodied", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "YouTube-8M", "link": "https://research.google.com/youtube8m/?_gl=1*i351qa*_ga*MTU4NjMzMzU3Ni4xNjgyNjE4OTEy*_ga_163LFDWS1G*MTY5ODc4MDk2Ny41NTkuMS4xNjk4NzgxNDExLjAuMC4w", "modality": "Speech", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "WikiReading: a large-scale NLU task over Wikipedia and Wikidata", "link": "https://github.com/google-research-datasets/wiki-reading", "modality": "Language", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "What's Cookin'", "link": "https://github.com/malmaud/whats_cookin", "modality": "Vision", "lifecycle": "Pre-training"}
+{"org": "Google", "repo": "Google", "dataset_name": "Robot Arm Grasping", "link": "https://sites.google.com/site/brainrobotdata/home/grasping-dataset", "modality": "Embodied", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "SemCor and Masc documents annotated with NOAD word senses", "link": "https://github.com/google-research-datasets/word_sense_disambigation_corpora", "modality": "Language", "lifecycle": "Pre-training"}
+{"org": "Google", "repo": "Google", "dataset_name": "Robot Arm Pushing", "link": "https://sites.google.com/site/brainrobotdata/home/push-dataset", "modality": "Embodied", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "MultilingualOpenRelations15", "link": "https://www.kaggle.com/datasets/shankkumar/multilingualopenrelations15", "modality": "Language", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "The Universal Dependency Treebank Project", "link": "https://universaldependencies.org/", "modality": "Language", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "Wikilinks: 40 Million Entities in Context", "link": "https://github.com/google-research-datasets/wiki-links", "modality": "Language", "lifecycle": "Pre-training"}
@@ -154,51 +158,3 @@
 {"org": "Google", "repo": "Google", "dataset_name": "50,000 Lessons on How to Read: a Relation Extraction Corpus", "link": "https://code.google.com/archive/p/relation-extraction-corpus/downloads", "modality": "Language", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "Features Extracted From YouTube Videos for Multiview Learning", "link": "https://archive.ics.uci.edu/dataset/269/youtube+multiview+video+games+dataset", "modality": "Vision", "lifecycle": "Pre-training"}
 {"org": "Google", "repo": "Google", "dataset_name": "Dictionaries for linking Text, Entities, and Ideas", "link": "https://downloads.cs.stanford.edu/nlp/data/crosswikis-data.tar.bz2/READ_ME.txt", "modality": "Language", "lifecycle": "Pre-training"}
-{"org": "Meta", "repo": "Meta", "dataset_name": "EgoTV: Egocentric Task Verification Dataset", "link": "https://ai.meta.com/datasets/egotv-egocentric-task-verification-dataset/", "modality": "Embodied", "lifecycle": "Pre-training"}
-{"org": "Meta", "repo": "Meta", "dataset_name": "FLoRes Benchmarking", "link": "https://ai.meta.com/tools/flores/", "modality": null, "lifecycle": "Evaluation"}
-{"org": "Meta", "repo": "Meta", "dataset_name": "Egocentric Live 4D Perception (Ego4D)", "link": "https://ai.meta.com/tools/ego4d/", "modality": "Embodied", "lifecycle": "Pre-training"}
-{"org": "Google", "repo": "Google", "dataset_name": "MT-Opt dataset", "link": "https://www.tensorflow.org/datasets/catalog/mt_opt", "modality": "Embodied", "lifecycle": "Pre-training"}
-{"org": "Google", "repo": "Google", "dataset_name": "EditBench", "link": "https://storage.cloud.google.com/editbench/editbench.tar.gz", "modality": null, "lifecycle": "Evaluation"}
-{"org": "Google", "repo": "Google", "dataset_name": "Room-Across-Room", "link": "https://github.com/google-research-datasets/RxR", "modality": "Embodied", "lifecycle": "Pre-training"}
-{"org": "Google", "repo": "Google", "dataset_name": "Objectron", "link": "https://github.com/google-research-datasets/Objectron", "modality": "Embodied", "lifecycle": "Pre-training"}
-{"org": "Google", "repo": "Google", "dataset_name": "Human Pouring Videos", "link": "https://sites.google.com/site/brainrobotdata/home/pouring-dataset", "modality": "Embodied", "lifecycle": "Pre-training"}
-{"org": "Google", "repo": "Google", "dataset_name": "Multi-view Human Pouring Videos", "link": "https://sites.google.com/site/brainrobotdata/home/multiview-pouring", "modality": "Embodied", "lifecycle": "Pre-training"}
-{"org": "Google", "repo": "Google", "dataset_name": "Robot Arm Grasping", "link": "https://sites.google.com/site/brainrobotdata/home/grasping-dataset", "modality": "Embodied", "lifecycle": "Pre-training"}
-{"org": "Google", "repo": "Google", "dataset_name": "Robot Arm Pushing", "link": "https://sites.google.com/site/brainrobotdata/home/push-dataset", "modality": "Embodied", "lifecycle": "Pre-training"}
-{"org": "Meta", "repo": "Meta", "dataset_name": "EgoTV: Egocentric Task Verification Dataset", "link": "https://ai.meta.com/datasets/egotv-egocentric-task-verification-dataset/", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Huawei", "repo": "Huawei", "dataset_name": "wukong-dataset", "link": "https://wukong-dataset.github.io/wukong-dataset/index.html", "modality": "Multimodal", "lifecycle": "Pre-training"}
-{"org": "Baidu", "repo": "Baidu", "dataset_name": "BSTC (Baidu Speech Translation Corpus)", "link": "https://ai.baidu.com/broad/introduction?dataset=bstc", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "ScreenQA", "link": "https://github.com/google-research-datasets/screen_qa/", "modality": null, "lifecycle": "Evaluation"}
-{"org": "Google", "repo": "Google", "dataset_name": "SCIN Crowdsourced Dermatology Dataset", "link": "https://github.com/google-research-datasets/scin", "modality": "Multimodal", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "ScreenQA Short", "link": "https://github.com/google-research-datasets/screen_qa/tree/main/short_answers", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "MD3: Multi-dialect dataset of dialogues", "link": "https://www.kaggle.com/datasets/jacobeis99/md3en", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "AIS: Attributable to Identified Sources", "link": "https://github.com/google-research-datasets/AIS", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Voice Assistant Failures Dataset", "link": "https://www.kaggle.com/datasets/googleai/voice-assistant-failures", "modality": "Speech", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "MusicCaps", "link": "https://www.kaggle.com/datasets/googleai/musiccaps", "modality": "Speech", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Upwelling irradiance from GOES-16", "link": "https://storage.cloud.google.com/upwelling_irradiance", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Attributed QA", "link": "https://github.com/google-research-datasets/Attributed-QA", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "OpenContrails: Public Contrails Detection", "link": "https://storage.cloud.google.com/goes_contrails_dataset", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Crossmodal-3600", "link": "https://github.com/google/crossmodal-3600", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "InFormal Dataset", "link": "https://github.com/google-research-datasets/informal", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "wiki-conciseness dataset", "link": "https://github.com/google-research-datasets/wiki-conciseness-dataset", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Wikipedia Translated Clusters", "link": "https://github.com/google-research-datasets/wiki-translated-clusters-nli", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "SeeGULL", "link": "https://github.com/google-research-datasets/seegull", "modality": null, "lifecycle": "Evaluation"}
-{"org": "Google", "repo": "Google", "dataset_name": "Google Patent Phrase Similarity Dataset", "link": "https://www.kaggle.com/datasets/google/google-patent-phrase-similarity-dataset", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "MSR2022 OCEAN mailing list dataset", "link": "https://figshare.com/articles/dataset/OCEAN_mailing_list_data_from_open_source_communities/19082540/2", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Specialized Rater Pools data 2022", "link": "https://www.kaggle.com/datasets/google/jigsaw-specialized-rater-pools-dataset", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "CLSE: Corpus of Linguistically Significant Entities", "link": "https://github.com/google-research-datasets/clse", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Soft Attributes", "link": "https://github.com/google-research-datasets/soft-attributes", "modality": "Multimodal", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Evoked Expressions in Video", "link": "https://github.com/google-research-datasets/eev", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Disfl-QA", "link": "https://github.com/google-research-datasets/disfl-qa", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Room-Across-Room", "link": "https://github.com/google-research-datasets/RxR", "modality": "Vision", "lifecycle": "Pre-training"}
-{"org": "Google", "repo": "Google", "dataset_name": "UniNum", "link": "https://github.com/google-research-datasets/uninum", "modality": "Language", "lifecycle": "Preference"}
-{"org": "Google", "repo": "Google", "dataset_name": "QuickDraw", "link": "https://github.com/googlecreativelab/quickdraw-dataset", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Query-wellformedness", "link": "https://github.com/google-research-datasets/query-wellformedness", "modality": "Language", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Cartoon Set", "link": "https://google.github.io/cartoonset/", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Open Images Extended - Crowdsourced", "link": "https://storage.googleapis.com/openimages/web/extended.html", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Bike Video Dataset", "link": "https://storage.googleapis.com/vid2depth/dataset/BikeVideoDataset.tar", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Human Pouring Videos", "link": "https://sites.google.com/site/brainrobotdata/home/pouring-dataset", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "Multi-view Human Pouring Videos", "link": "https://sites.google.com/site/brainrobotdata/home/multiview-pouring", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "What's Cookin'", "link": "https://github.com/malmaud/whats_cookin", "modality": "Vision", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "ScreenQA", "link": "https://github.com/google-research-datasets/screen_qa/", "modality": "Multimodal", "lifecycle": "Fine-tuning"}
-{"org": "Google", "repo": "Google", "dataset_name": "ScreenQA Short", "link": "https://github.com/google-research-datasets/screen_qa/tree/main/short_answers", "modality": "Multimodal", "lifecycle": "Fine-tuning"}

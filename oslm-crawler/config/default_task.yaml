@@ -109,7 +109,7 @@ BAAIDataPipeline:
     buffer_size: 8          # Number of links passed to LLM in one call when using ai_gen.
     max_retries: 3          # Maximum retry count for using AI.
 
-MergeAndRankingPipeline:
+RankingPipeline:
   data_dir: null            # Data directory, default value is `data/{today-date}`
   log_path: null            # Log output directory, default value is `logs/ranking-{datetime}/running.log`
 
@@ -117,6 +117,9 @@ MergeAndRankingPipeline:
     save: true              # Whether to save the result.
 
   merge_datasets:
+    save: true              # Whether to save the result.
+
+  accumulate:
     save: true              # Whether to save the result.
 
   ranking:
