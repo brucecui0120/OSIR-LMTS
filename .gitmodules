@@ -1,0 +1,3 @@
+[submodule "oslm-analyst"]
+	path = oslm-analyst
+	url = https://github.com/MorePeanuts/oslm-analyst
